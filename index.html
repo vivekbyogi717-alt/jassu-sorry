@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>For My Jassu ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <div class="stars"></div>
+  <div class="music-note">♪</div>
+
+  <!-- SCREEN 1 -->
+  <section class="screen active" id="s1">
+    <div class="moon">☾</div>
+    <div class="teddy">🧸</div>
+    <p class="tiny-title">A little something for</p>
+    <h1 class="pink">My Jassu ❤️</h1>
+    <p class="typing" id="typing"></p>
+    <p>I have something I really want to say to you...</p>
+    <button onclick="go(2)">Open this for me 💌</button>
+  </section>
+
+  <!-- SCREEN 2 -->
+  <section class="screen" id="s2">
+    <div class="cute">🥺</div>
+    <h1>Jassu...</h1>
+    <p>I know you're angry with me.</p>
+    <p>And honestly, this time I understand why.</p>
+    <p>I said things I shouldn't have said.</p>
+    <button onclick="go(3)">Let me explain ❤️</button>
+  </section>
+
+  <!-- SCREEN 3 -->
+  <section class="screen" id="s3">
+    <div class="gift-icon">🎁</div>
+    <h1>It was about the teddy...</h1>
+    <div class="message-card">
+      <p>You brought that teddy for me with so much love.</p>
+      <p>And instead of simply accepting it happily, I started saying:</p>
+      <p class="quote">“Itna bada teddy kyun layi?”<br>
+      “Main ghar kaise leke jaunga?”<br>
+      “Koi dekh lega toh kya bolega?”<br>
+      “Chhota gift laana tha...”</p>
+    </div>
+    <button onclick="go(4)">I know I was wrong...</button>
+  </section>
+
+  <!-- SCREEN 4 -->
+  <section class="screen letter-screen" id="s4">
+    <div class="letter">
+      <div class="label">FROM MY HEART 💌</div>
+      <h2>My Jass Manak...</h2>
+
+      <p>Mujhe ab realise ho raha hai ki meri baaton se tujhe kitna hurt hua hoga.</p>
+
+      <p>Tu mere liye itne pyaar se teddy layi thi, aur mujhe us moment pe bas tera pyaar dekhna chahiye tha. Mujhe bina itna soche khushi se woh gift accept kar lena chahiye tha.</p>
+
+      <p>Lekin maine gift ki khushi se zyada uske size, ghar le jaane aur log kya kahenge wali baatein kar di. I am really sorry, Jassu. 🥺</p>
+
+      <p>Mera intention tujhe hurt karna bilkul nahi tha, but I know intention se zyada important hota hai ki saamne wale ko kaisa feel hua.</p>
+
+      <p>Tu mere liye jo cheez itne pyaar se layi, uski value mujhe usi waqt samajhni chahiye thi.</p>
+
+      <p>Kaash main us moment ko wapas kar pata aur bas smile karke bolta — <b>“Thank you Jassu, mujhe bohot achha laga.”</b> ❤️</p>
+
+      <p>I can't change what I said, but I can accept that I was wrong and learn from it.</p>
+
+      <p class="last-line">I'm genuinely, truly sorry. 🫂</p>
+
+      <p class="signature">— your Vivuu 🥰</p>
+    </div>
+    <button onclick="go(5)">One more thing...</button>
+  </section>
+
+  <!-- SCREEN 5 -->
+  <section class="screen" id="s5">
+    <div class="bear-hug">🧸 🫂 💗</div>
+    <h1>No excuses this time.</h1>
+    <p>Bas ek genuine sorry.</p>
+    <p>Jo gift tu itne pyaar se layi thi, uske liye mujhe complain nahi, gratitude dikhana chahiye tha.</p>
+    <button class="outline" onclick="hug()">A virtual hug for Jassu 🫂</button>
+  </section>
+
+  <!-- SCREEN 6 -->
+  <section class="screen" id="s6">
+    <p class="tiny-title">And yes...</p>
+    <h1 class="pink">I still remember that teddy. 🧸</h1>
+    <div class="big-teddy">🧸</div>
+    <p>Size bada tha... but uske peeche jo pyaar tha, woh usse bhi bada tha. ❤️</p>
+    <button onclick="go(7)">I understood now...</button>
+  </section>
+
+  <!-- SCREEN 7 -->
+  <section class="screen" id="s7">
+    <div class="heart">♥</div>
+    <h1>Jassu, please smile. 🥺</h1>
+    <p>I'm not asking you to instantly stop being angry.</p>
+    <p>Bas itna chahta hoon ki tu meri sorry ko samjhe — because I really mean it.</p>
+    <p class="highlight">My Jass Manak, I'm sorry. ❤️</p>
+    <button onclick="go(8)">Last message →</button>
+  </section>
+
+  <!-- SCREEN 8 -->
+  <section class="screen final" id="s8">
+    <div class="sparkle">✨</div>
+    <h1>For My Jassu</h1>
+    <p class="final-message">Thank you for caring enough to bring me something with love.</p>
+    <p>Next time, I'll remember the feeling behind the gift before I start thinking about everything else.</p>
+    <div class="final-heart">❤️</div>
+    <p class="signature">— Your Vivuu 🥰🫂🤗</p>
+    <button onclick="restart()">Read again ↻</button>
+  </section>
+
+  <div class="counter" id="counter">1 / 8</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
